@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 18CV8-DIP20
+D Programmable Logic Array, DIP20
+K PAL PLD 18CV8
+F https://www.digchip.com/datasheets/parts/datasheet/922/18CV8.php
+$ENDCMP
+#
+$CMP GBA_Cart_Slot
+D GameBoy Advance Cart Slot
+K GameBoyAdvance GBA
+F https://fms.komkon.org/GameBoy/Tech/Hardware.html
+$ENDCMP
+#
+$CMP GB_Cart_EdgeConn-1Row-32Pins
+D GameBoy Cart Edge Connector
+K GameBoy GB
+F https://fms.komkon.org/GameBoy/Tech/Hardware.html
+$ENDCMP
+#
+$CMP GB_Cart_Slot-1Row-32Pins
+D GameBoy Cart Slot
+K GameBoy GB
+F https://fms.komkon.org/GameBoy/Tech/Hardware.html
+$ENDCMP
+#
+$CMP HY6264A-SOP28
+D 8Kx8 bit Low Power CMOS Static RAM, 55/70ns, SOP-28
+K RAM SRAM CMOS MEMORY
+F https://www.digchip.com/datasheets/parts/datasheet/202/HY6264A.php
+$ENDCMP
+#
+$CMP M27C1001-PLCC32
+D CMOS Flash 128Ko 1Mbit 5V prog
+K EEPROM PEROM FLASH 128KO
+F https://www.futurlec.com/Datasheet/Memory/AT29C010.pdf
+$ENDCMP
+#
+$CMP PAL16V8-DIP20
+D Programmable Logic Array, PLCC28
+K PAL PLD 20V8
+F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/PAL/PALCE20V8DataSheet.ashx?la=en
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+#End Doc Library
