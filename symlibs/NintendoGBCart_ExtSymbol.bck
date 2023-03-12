@@ -6,6 +6,48 @@ K PAL PLD 18CV8
 F https://www.digchip.com/datasheets/parts/datasheet/922/18CV8.php
 $ENDCMP
 #
+$CMP 28LF040-PLCC32
+D Flash EEProm 512Ko 4Mbit 3.0-3.6V CMOS Sector-Erase Byte-Program
+K EEPROM FLASH 512KO
+F https://www.ramos.it/public/schede/SST28SF040-120-4C-NH.pdf
+$ENDCMP
+#
+$CMP 28SF040-PLCC32
+D Flash EEProm 512Ko 4Mbit 5V CMOS Sector-Erase Byte-Program
+K EEPROM FLASH 512KO
+F https://www.ramos.it/public/schede/SST28SF040-120-4C-NH.pdf
+$ENDCMP
+#
+$CMP 28SF040A-PLCC32
+D Flash EEProm 512Ko 4Mbit 5V CMOS Sector-Erase Byte-Program
+K EEPROM FLASH 512KO
+F http://www.batronix.com/pdf/28SF040.pdf
+$ENDCMP
+#
+$CMP 28VF040-PLCC32
+D Flash EEProm 512Ko 4Mbit 2.7-3.6V CMOS Sector-Erase Byte-Program
+K EEPROM FLASH 512KO
+F https://www.ramos.it/public/schede/SST28SF040-120-4C-NH.pdf
+$ENDCMP
+#
+$CMP 28VF040A-PLCC32
+D Flash EEProm 512Ko 4Mbit 2.7-3.6V CMOS Sector-Erase Byte-Program
+K EEPROM FLASH 512KO
+F https://pdf.dzsc.com/88889/246.pdf
+$ENDCMP
+#
+$CMP AT27C010-PLCC32
+D CMOS Flash 128Ko 1Mbit 5V prog
+K EEPROM PEROM FLASH 128KO
+F https://www.digchip.com/datasheets/parts/datasheet/2/295/AT27C010-pdf.php
+$ENDCMP
+#
+$CMP GAL20V8-PLCC28
+D Generic Array Logic, PLCC28
+K GAL PLD 20V8
+F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/GAL/GAL20V8DataSheet.ashx?la=en
+$ENDCMP
+#
 $CMP GBA_Cart_Slot
 D GameBoy Advance Cart Slot
 K GameBoyAdvance GBA
@@ -24,6 +66,12 @@ K GameBoy GB
 F https://fms.komkon.org/GameBoy/Tech/Hardware.html
 $ENDCMP
 #
+$CMP HY6264A-DIP28
+D 8Kx8 bit Low Power CMOS Static RAM, 55/70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://www.digchip.com/datasheets/parts/datasheet/202/HY6264A.php
+$ENDCMP
+#
 $CMP HY6264A-SOP28
 D 8Kx8 bit Low Power CMOS Static RAM, 55/70ns, SOP-28
 K RAM SRAM CMOS MEMORY
@@ -33,7 +81,13 @@ $ENDCMP
 $CMP M27C1001-PLCC32
 D CMOS Flash 128Ko 1Mbit 5V prog
 K EEPROM PEROM FLASH 128KO
-F https://www.futurlec.com/Datasheet/Memory/AT29C010.pdf
+F https://www.digchip.com/datasheets/parts/datasheet/456/M27C1001-pdf.php
+$ENDCMP
+#
+$CMP NM27C010-PLCC32
+D CMOS Flash 128Ko 1Mbit 5V prog
+K EEPROM PEROM FLASH 128KO
+F https://www.digchip.com/datasheets/parts/datasheet/161/NM27C010.php
 $ENDCMP
 #
 $CMP PAL16V8-DIP20
@@ -42,10 +96,38 @@ K PAL PLD 20V8
 F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/PAL/PALCE20V8DataSheet.ashx?la=en
 $ENDCMP
 #
+$CMP PAL20V8-PLCC28
+D Programmable Logic Array, PLCC28
+K PAL PLD 20V8
+F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/PAL/PALCE20V8DataSheet.ashx?la=en
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_SP3T_Common2
+D Switch, three position, single pole triple throw, 3 position switch, SP3T
+K switch sp3t ON-ON-ON
+F ~
+$ENDCMP
+#
 $CMP SW_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
 F ~
+$ENDCMP
+#
+$CMP TC551001BFL_SOP32
+D 128K x 8 High-Speed CMOS Static RAM, 70/85ns, SOP-32
+K RAM SRAM CMOS MEMORY
+$ENDCMP
+#
+$CMP TC551001BPL_DIP32
+D 128K x 8 High-Speed CMOS Static RAM, 70/85ns, DIP-32
+K RAM SRAM CMOS MEMORY
 $ENDCMP
 #
 #End Doc Library
