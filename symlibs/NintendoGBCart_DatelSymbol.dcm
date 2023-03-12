@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DATEL_GBOY_AR_MKII_ORBIT_61300A-QFP52
+D Front side text: DATEL GBOY AR MKII ORBIT 61300A, Back side text: 9918 G305 HONG KONG
+K GameBoy GB
+F https://fms.komkon.org/GameBoy/Tech/Hardware.html
+$ENDCMP
+#
+#End Doc Library
