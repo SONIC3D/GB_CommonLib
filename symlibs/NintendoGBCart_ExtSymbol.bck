@@ -42,6 +42,24 @@ K EEPROM PEROM FLASH 128KO
 F https://www.digchip.com/datasheets/parts/datasheet/2/295/AT27C010-pdf.php
 $ENDCMP
 #
+$CMP AT29C040-PLCC32
+D Flash EEProm 512Ko 4Mbit 5V CMOS Sector-Program
+K EEPROM FLASH 512KO
+F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
+$ENDCMP
+#
+$CMP AT29C040A-DIP32
+D Flash EEPROM 512K x 8 (DIP 32) 5V
+K EEPROM FLASH 512KO
+F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
+$ENDCMP
+#
+$CMP AT29C040A-TSOP32
+D Flash EEPROM 512K x 8 (TSOP 32) 5V
+K EEPROM FLASH 512KO
+F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
+$ENDCMP
+#
 $CMP GAL20V8-PLCC28
 D Generic Array Logic, PLCC28
 K GAL PLD 20V8
@@ -100,6 +118,30 @@ $CMP PAL20V8-PLCC28
 D Programmable Logic Array, PLCC28
 K PAL PLD 20V8
 F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/PAL/PALCE20V8DataSheet.ashx?la=en
+$ENDCMP
+#
+$CMP PIC12C508A-IJW
+D PIC12C508A, 512W EPROM, 25B SRAM, CERDIP8 Windowed
+K 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf
+$ENDCMP
+#
+$CMP PIC12C508A-IP
+D 512W EPROM, 25B SRAM, PDIP8
+K 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf
+$ENDCMP
+#
+$CMP PIC12C508A-ISM
+D PIC12C508A, 512W EPROM, 25B SRAM, SO8 Wide
+K 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf
+$ENDCMP
+#
+$CMP PIC12C508A-ISN
+D PIC12C508A, 512W EPROM, 25B SRAM, SO8
+K 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf
 $ENDCMP
 #
 $CMP SW_Push
