@@ -42,14 +42,14 @@ K EEPROM PEROM FLASH 128KO
 F https://www.digchip.com/datasheets/parts/datasheet/2/295/AT27C010-pdf.php
 $ENDCMP
 #
-$CMP AT29C040-PLCC32
-D Flash EEProm 512Ko 4Mbit 5V CMOS Sector-Program
+$CMP AT29C040A-DIP32
+D Flash EEPROM 512K x 8 (DIP 32) 5V
 K EEPROM FLASH 512KO
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
 $ENDCMP
 #
-$CMP AT29C040A-DIP32
-D Flash EEPROM 512K x 8 (DIP 32) 5V
+$CMP AT29C040A-PLCC32
+D Flash EEProm 512Ko 4Mbit 5V CMOS Sector-Program
 K EEPROM FLASH 512KO
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
 $ENDCMP
