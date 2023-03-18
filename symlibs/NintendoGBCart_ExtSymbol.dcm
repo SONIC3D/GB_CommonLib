@@ -36,6 +36,12 @@ K EEPROM FLASH 512KO
 F https://pdf.dzsc.com/88889/246.pdf
 $ENDCMP
 #
+$CMP AS6C4008-DIP32-SOP32
+D 512K x 8 High-Speed CMOS Static RAM, 55ns, DIP-32, SOP-32
+K RAM SRAM CMOS MEMORY
+F https://www.digchip.com/datasheets/parts/datasheet/030/AS6C4008.php
+$ENDCMP
+#
 $CMP AT27C010-PLCC32
 D CMOS Flash 128Ko 1Mbit 5V prog
 K EEPROM PEROM FLASH 128KO
@@ -60,6 +66,18 @@ K EEPROM FLASH 512KO
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/AT29C040A.pdf
 $ENDCMP
 #
+$CMP BA6162F
+D Reset IC with battery backup function, max voltage 7.0V, output CS/CSB on 4.2V or lower, switch to batter on 3.3V or lower, SOP-8
+K Reset IC battery backup supervisor
+F https://www.digchip.com/datasheets/parts/datasheet/406/BA6162F-pdf.php
+$ENDCMP
+#
+$CMP Battery_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP GAL20V8-PLCC28
 D Generic Array Logic, PLCC28
 K GAL PLD 20V8
@@ -82,6 +100,11 @@ $CMP GB_Cart_Slot-1Row-32Pins
 D GameBoy Cart Slot
 K GameBoy GB
 F https://fms.komkon.org/GameBoy/Tech/Hardware.html
+$ENDCMP
+#
+$CMP HM628512-SOP32
+D 128K x 8 High-Speed CMOS Static RAM, 70/85ns, SOP-32
+K RAM SRAM CMOS MEMORY
 $ENDCMP
 #
 $CMP HY6264A-DIP28
